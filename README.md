@@ -1,5 +1,5 @@
 # mEBA (multivariate Empirical Band Analysis)
-Simulated examples and electroencephalography analysis accompanying manuscript ``Frequency Band Analysis of Nonstationary Multivariate Time Series'' by Raanju R. Sundararajan and Scott A. Bruce
+Simulated examples and electroencephalography analysis accompanying manuscript "Frequency Band Analysis of Nonstationary Multivariate Time Series" by Raanju R. Sundararajan and Scott A. Bruce
 
 R code developed and tested using R version 4.2.2 on both macOS Monterey and Windows 11 operating systems.
 
