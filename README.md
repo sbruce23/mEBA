@@ -11,4 +11,4 @@ Separate R scripts are provided to generate simulated time series following the 
 4. Run the entire R script to produce visualizations of the simulated time series, test statistics, bootstrap p-values, and estimated frequency band structure.
 
 ## EEG analysis
-
+R script provided to reproduce elements of the EEG data analysis presented in the manuscript (specifically Figures 1, 3, and 4).  As in the simulated examples, all that is needed is to update the file path in the `setwd()` function in the R script to point to the directory containing the files on your local.  Then the entire script can be run to reproduce visualizations and results.
