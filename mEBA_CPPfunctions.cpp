@@ -139,7 +139,7 @@ Rcpp::List msboot(int nrep, arma::mat x, int Wsel, bool stdz, int ncore){
       uvec srtidx = sort_index(dfobs,"descend"); //ordering of largest test stats
       
       //bonferroni correction for candidate testing points
-      double thr = 0.05/accu(freqcand);
+      double thr = 0.05/accu(freqcand.col(1));
       
       int stp=0;
       while(stp==0){
